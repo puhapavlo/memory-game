@@ -365,3 +365,21 @@ body {
       transform: rotateY(180deg);
     }
 }
+
+.restart{
+  &-img{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 50%;
+    transform: translateY(-5000%);
+    margin: 0 auto;
+    width: 50%;
+    height: 50%;
+    cursor: pointer;
+    transition: all ease 0.9s;
+    &:active{
+      transform: scale(0.9) translateY(-50%);
+    }
+  }
+}
