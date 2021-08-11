@@ -1,3 +1,8 @@
+html{
+  overflow: hidden;
+  width: 100%;
+}
+
 body {
     margin: 0;
   }
@@ -371,8 +376,8 @@ body {
     position: absolute;
     left: 0;
     right: 0;
-    top: 50%;
-    transform: translateY(-5000%);
+    top: -10000px;
+    transform: translateY(-50%);
     margin: 0 auto;
     width: 50%;
     height: 50%;
